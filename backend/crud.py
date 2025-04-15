@@ -1,17 +1,16 @@
 from typing import List
-import duckdb
 from pathlib import Path
 import subprocess
-
 from models import Relation
 from database import get_db
+import tempfile
 
 PATH = Path("./notes")
 
 
-def open_editor():
+def open_editor(path: str):
     global PATH
-    return subprocess.run(["nvim", PATH / "temp"])
+    return subprocess.run(["vi", path])
 
 
 def write_note(data: Relation):
@@ -19,13 +18,19 @@ def write_note(data: Relation):
     Open a editor window
     write Note to database
     """
-    result = open_editor()
+    print(data.note)
 
-    with open(PATH / data.name, "+r") as content:
-        update_note(data.id, content.read())
-    (PATH / data.name).unlink()
+    with tempfile.NamedTemporaryFile(suffix=".tmp", delete=False, mode="w+") as tf:
+        tf.write(data.note)
+        tf.flush()
+        temp_path = tf.name
+    with open(temp_path, "r") as f:
+        result = open_editor(temp_path)
+        update_note(data.id, f.read())
+
     if result.returncode == 0:
-        print("file written")
+        pass
+    # print("file written")
 
 
 def create_table():
@@ -102,22 +107,22 @@ def get_by_id(id: int) -> List[tuple]:
     return result
 
 
-def parse_one(list_data: List[tuple]) -> Relation:
+def parse_one(data: tuple) -> Relation:
     """get a reletion class for the db return object"""
-    if len(list_data) == 1:
-        data = list_data[0]
+    if data:
         return Relation(id=data[0], name=data[1], note=data[2], done=data[3])
-    raise Exception("No output for parsing")
+    else:
+        raise Exception("Cannot parse Empty DB return")
 
 
-def parse_all(relations: List[List[tuple]]) -> List[Relation]:
+def parse_all(liast_data: List[tuple]) -> List[Relation]:
     """parse list of db returns"""
-    return [parse_one(relation) for relation in relations]
+    return [parse_one(data) for data in liast_data]
 
 
 def main():
     create_table()
     print(get_all())
 
-    write_note(data=parse_one(get_by_id(id=6)))
-    print(get_all())
+    write_note(data=parse_all(get_by_id(id=6))[0])
+    print(parse_all(get_all()))
