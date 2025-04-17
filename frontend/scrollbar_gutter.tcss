@@ -1,0 +1,3 @@
+#mark {
+    scrollbar-size-horizontal: 0;
+}

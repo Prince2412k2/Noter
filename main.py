@@ -1,23 +1,8 @@
-from __future__ import annotations
 import curses
+from frontend.curse import main
+import logging
 
-
-def c_main(stdscr: curses._CursesWindow) -> int:
-    stdscr.clear()
-    stdscr.addstr(0, 0, "hello world")
-    stdscr.refresh()
-
-    # Wait for a key press
-
-    stdscr.getch()
-    return 0
-
-
-# def main() -> int:
-#    return curses.wrapper(c_main)
-
+logging.basicConfig(filename="debug.log", level=logging.INFO)
 
 if __name__ == "__main__":
-    from backend.crud import main
-
-    main()
+    curses.wrapper(main)

@@ -4,13 +4,16 @@ import subprocess
 from models import Relation
 from database import get_db
 import tempfile
+import logging
+
+logger = logging.getLogger()
 
 PATH = Path("./notes")
 
 
 def open_editor(path: str):
     global PATH
-    return subprocess.run(["vi", path])
+    return subprocess.run(["nvim", path])
 
 
 def write_note(data: Relation):
@@ -18,18 +21,17 @@ def write_note(data: Relation):
     Open a editor window
     write Note to database
     """
-    print(data.note)
-
     with tempfile.NamedTemporaryFile(suffix=".tmp", delete=False, mode="w+") as tf:
         tf.write(data.note)
         tf.flush()
         temp_path = tf.name
+        logger.info(f"[write_note] {temp_path=}")
     with open(temp_path, "r") as f:
         result = open_editor(temp_path)
         update_note(data.id, f.read())
-
-    if result.returncode == 0:
-        pass
+    logger.info("note written")
+    logger.info(result.stderr)
+    logger.info(result.stdout)
     # print("file written")
 
 
@@ -59,6 +61,17 @@ def add_item(name: str, note: str):
         )
 
 
+def remove_item(id: int):
+    """add a new idtem to database"""
+    with get_db() as con:
+        con.sql(
+            """
+            DELETE FROM Notes WHERE id=?
+            """,
+            params=(id,),
+        )
+
+
 def update_name(id: int, name: str, con=get_db()):
     """Update name by id in database"""
     with get_db() as con:
@@ -70,20 +83,28 @@ def update_name(id: int, name: str, con=get_db()):
 
 def update_note(id: int, note: str):
     """Update note content by id"""
-    with get_db() as con:
-        con.sql(
-            "UPDATE Notes SET note=? WHERE id=?",
-            params=(
-                note,
-                id,
-            ),
-        )
+    logger.info(f"[update_note] : {note}")
+    try:
+        with get_db() as con:
+            con.sql(
+                "UPDATE Notes SET note=? WHERE id=?",
+                params=(
+                    note,
+                    id,
+                ),
+            )
+    except Exception as e:
+        logger.info(f"[update_note] failed for {id=} : {e}")
 
 
 def toggle_done(id: int):
     """toggle if note/todo is done"""
-    with get_db() as con:
-        con.sql(query="UPDATE Notes SET done = NOT done WHERE id=?", params=(id,))
+    try:
+        with get_db() as con:
+            con.sql(query="UPDATE Notes SET done = NOT done WHERE id=?", params=(id,))
+        logger.info(f"[toggle_done] for {id=}")
+    except Exception as e:
+        logger.warning(f"[toggle_done] failed for {id=} : {e}")
 
 
 def filter(done: bool) -> List[tuple]:

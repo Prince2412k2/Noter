@@ -3,6 +3,7 @@ from .crud import (
     write_note,
     create_table,
     add_item,
+    remove_item,
     update_name,
     update_note,
     toggle_done,

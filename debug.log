@@ -1,0 +1,2034 @@
+INFO:root:[toggle_done] for id=5
+INFO:root:[toggle_done] for id=8
+INFO:root:[toggle_done] for id=2
+INFO:root:[toggle_done] for id=3
+INFO:root:[toggle_done] for id=3
+INFO:root:[toggle_done] for id=6
+INFO:root:[toggle_done] for id=5
+INFO:root:[toggle_done] for id=4
+INFO:root:[toggle_done] for id=6
+INFO:root:[toggle_done] for id=8
+INFO:root:[toggle_done] for id=2
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:9
+INFO:root:8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:9
+INFO:root:8
+INFO:root:7
+INFO:root:0
+INFO:root:8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:0
+INFO:root:8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:8
+INFO:root:8
+INFO:root:0
+INFO:root:8
+INFO:root:7
+INFO:root:6
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:[toggle_done] for id=5
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:6
+INFO:root:6
+INFO:root:6
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:[toggle_done] for id=6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:[toggle_done] for id=7
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:5
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:5
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:5
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:5
+INFO:root:0
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:2
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:writing note
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:enter key pressed
+INFO:root:helo do
+
+INFO:root:dont do
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:[update_note] : dfghjkl
+
+INFO:root:
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:[update_note] : one
+
+INFO:root:
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:[update_note] : dont do
+not 
+
+INFO:root:
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:0
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:[update_note] : dont do
+not 
+
+INFO:root:
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmpnh6uci0i.tmp'
+INFO:root:[update_note] : dfghjkl
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmpxm_6pvzc.tmp'
+INFO:root:[update_note] : asdfghjkl
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmpdxg6nzgs.tmp'
+INFO:root:[update_note] : dfghjkl
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmpozknwqob.tmp'
+INFO:root:[update_note] : one
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:0
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmp9wpo6dio.tmp'
+INFO:root:[update_note] : one
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmp06y4fc3t.tmp'
+INFO:root:[update_note] : updated
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:7
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmpf6tkfqv0.tmp'
+INFO:root:[update_note] : updated
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:[toggle_done] for id=8
+INFO:root:7
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=1
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=2
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=3
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=4
+INFO:root:3
+INFO:root:4
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:3
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:3
+INFO:root:3
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmp5vpzeeqq.tmp'
+INFO:root:[update_note] : add string to id
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:enter key pressed
+INFO:root:[write_note] temp_path='/tmp/tmpfa_40ugy.tmp'
+INFO:root:[update_note] : add string to id
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:7
+INFO:root:7
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:7
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:6
+INFO:root:5
+INFO:root:4
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:5
+INFO:root:4
+INFO:root:4
+INFO:root:4
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:[toggle_done] for id=3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:[toggle_done] for id=5
+INFO:root:1
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=5
+INFO:root:1
+INFO:root:2
+INFO:root:0
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:4
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:5
+INFO:root:6
+INFO:root:6
+INFO:root:5
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:4
+INFO:root:4
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:2
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=13
+INFO:root:3
+INFO:root:[toggle_done] for id=13
+INFO:root:3
+INFO:root:2
+INFO:root:[toggle_done] for id=9
+INFO:root:2
+INFO:root:[toggle_done] for id=9
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=13
+INFO:root:3
+INFO:root:[toggle_done] for id=13
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=5
+INFO:root:0
+INFO:root:[toggle_done] for id=5
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:-1
+INFO:root:-1
+INFO:root:0
+INFO:root:-1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:-1
+INFO:root:0
+INFO:root:0
+INFO:root:-1
+INFO:root:-1
+INFO:root:0
+INFO:root:1
+INFO:root:[write_note] temp_path='/tmp/tmpu2ael3ie.tmp'
+INFO:root:[update_note] : Welcome
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[write_note] temp_path='/tmp/tmpnd_385xp.tmp'
+INFO:root:[update_note] : oka
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:[write_note] temp_path='/tmp/tmplvc0bu3e.tmp'
+INFO:root:[update_note] : oka
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:2
+INFO:root:0
+INFO:root:1
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:1
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:[toggle_done] for id=15
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:[toggle_done] for id=17
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:3
+INFO:root:2
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:[toggle_done] for id=19
+INFO:root:3
+INFO:root:[toggle_done] for id=19
+INFO:root:3
+INFO:root:2
+INFO:root:1
+INFO:root:[toggle_done] for id=16
+INFO:root:1
+INFO:root:[toggle_done] for id=16
+INFO:root:1
+INFO:root:2
+INFO:root:3
+INFO:root:0
+INFO:root:3
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:0
