@@ -62,7 +62,8 @@ class Notes_list:
 
     def update(self, stdscr, key):
         if key == ord("a"):
-            name = input_box(stdscr)
+            pos_y = self.pointer.max + 1
+            name = input_box(stdscr, notes=self, pos_y=pos_y, prompt=">[n] ")
             if not name:
                 return
             add_item(name=name, note="Welcome")
@@ -86,8 +87,11 @@ class Notes_list:
                 self.pointer.selected -= 1
             stdscr.clear()
         if key == ord("e"):
-            item = self.items[self.pointer.selected]
-            name = input_box(stdscr, prefill=item.name)
+            pos_y = self.pointer.selected
+            item = self.items[pos_y]
+            name = input_box(
+                stdscr, notes=self, pos_y=pos_y, prefill=item.name, prompt=">[e] "
+            )
             if not name:
                 return
             update_name(id=item.id, name=name)
@@ -101,26 +105,29 @@ class Notes_list:
         self.pointer.max = len(self.items) - 1
 
 
-def input_box(stdscr, prompt="> ", prefill=""):
+def input_box(
+    stdscr, notes: Notes_list, pos_y: int, prompt: str = ">[ ] ", prefill: str = ""
+):
+    if not prefill:
+        notes.pointer.selected = notes.pointer.max + 1
+
+    logger.info(f"Position of line is {pos_y=}")
     curses.curs_set(1)
-    stdscr.clear()
-    stdscr.addstr(0, 0, prompt)
-    stdscr.refresh()
 
-    input_win = curses.newwin(1, curses.COLS - len(prompt), 0, len(prompt))
+    input_win = curses.newwin(1, curses.COLS - len(prompt), pos_y, len(prompt))
     input_win.keypad(True)
-
     buffer = list(prefill)
     cursor_pos = len(prefill)
 
+    stdscr.addstr(pos_y, 0, prompt)
+    stdscr.refresh()
     while True:
-        input_win.clear()
+        input_win.erase()
         input_win.addstr("".join(buffer))
         input_win.move(0, cursor_pos)
         input_win.refresh()
 
         key = input_win.getch()
-
         if key in (curses.KEY_ENTER, 10, 13):  # Enter key
             break
         elif key in (curses.KEY_BACKSPACE, 127):
@@ -138,7 +145,15 @@ def input_box(stdscr, prompt="> ", prefill=""):
             cursor_pos += 1
 
     curses.curs_set(0)
+
     return "".join(buffer)
+
+
+def draw_window(win):
+    win.clear()
+    win.box()
+    win.addstr(1, 2, "This is a new window!")
+    win.refresh()
 
 
 def footer(stdscr, height: int, width: int):
@@ -146,7 +161,6 @@ def footer(stdscr, height: int, width: int):
     stdscr.addstr(height - 1, width - 40, "ENTER: open")
     stdscr.addstr(height - 1, width - 64, "E: edit name")
     stdscr.addstr(height - 1, width - 80, "A: Add")
-
     stdscr.addstr(height - 1, width - 100, "D: Delete")
 
 
@@ -155,7 +169,7 @@ def main(stdscr):
     stdscr.nodelay(False)
     stdscr.keypad(True)
     notes = Notes_list()
-
+    win = curses.newwin(10, 40, 5, 10)
     while True:
         height, width = stdscr.getmaxyx()
         footer(stdscr, height, width)
@@ -166,3 +180,4 @@ def main(stdscr):
         notes.check(key=key)
         notes.update(stdscr, key=key)
         stdscr.refresh()
+        # draw_window(win)
