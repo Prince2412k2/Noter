@@ -139,11 +139,3 @@ def parse_one(data: tuple) -> Relation:
 def parse_all(liast_data: List[tuple]) -> List[Relation]:
     """parse list of db returns"""
     return [parse_one(data) for data in liast_data]
-
-
-def main():
-    create_table()
-    print(get_all())
-
-    write_note(data=parse_all(get_by_id(id=6))[0])
-    print(parse_all(get_all()))

@@ -1,0 +1,14 @@
+
+# Ignore environment files
+.env
+
+# Ignore Git metadata
+.git
+.gitignore
+
+# Optional: also ignore other unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
