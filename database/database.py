@@ -1,7 +1,6 @@
 # def get_db() -> duckdb.DuckDBPyConnection:
 # return duckdb.connect("./database/duck.db")
 
-
 import duckdb
 from contextlib import contextmanager
 from typing import Generator
