@@ -8,7 +8,7 @@ from typing import Generator
 
 @contextmanager
 def get_db() -> Generator[duckdb.DuckDBPyConnection, None, None]:
-    con = duckdb.connect("./database/duck.db")
+    con = duckdb.connect("~/notesdb/duck.db")
     try:
         yield con
     finally:

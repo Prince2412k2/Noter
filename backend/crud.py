@@ -102,7 +102,6 @@ def toggle_done(id: int):
     try:
         with get_db() as con:
             con.sql(query="UPDATE Notes SET done = NOT done WHERE id=?", params=(id,))
-        logger.info(f"[toggle_done] for {id=}")
     except Exception as e:
         logger.warning(f"[toggle_done] failed for {id=} : {e}")
 
