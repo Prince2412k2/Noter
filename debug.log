@@ -13,3 +13,11 @@ INFO:root:512
 INFO:root:2
 INFO:root:1
 INFO:root:2
+INFO:root:1
+INFO:root:[write_note] temp_path='/tmp/tmptzl4e0zb.tmp'
+INFO:root:[update_note] : hellow
+
+INFO:root:note written
+INFO:root:None
+INFO:root:None
+INFO:root:2
