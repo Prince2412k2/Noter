@@ -1,5 +1,5 @@
 # Noter
 
-- Minimal tui note taking app written in python curses
-- depends on python 3.12 and nvim
+- Minimal tui note taking app written in curses(python)
+- depends on python 3.12,duckdb and nvim
 
