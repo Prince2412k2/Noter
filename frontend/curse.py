@@ -1,4 +1,11 @@
-from typing import List
+# TODO: versdion control
+"""
+git log --pretty=format:'{%n  "hash": "%H",%n  "author": "%an",%n  "email": "%ae",%n  "date": "%ad",%n  "message": "%s"%n},'
+"""
+
+import subprocess
+import json
+from typing import List, Optional
 import time
 from backend import (
     get_all,
@@ -8,13 +15,21 @@ from backend import (
     remove_item,
     add_item,
     update_name,
+    Relation,
+    PATH,
+    Db,
+    Commits,
+    Commit,
 )
-from models import Relation
+
 import curses
 import logging
 
+import pyperclip
+
 
 logger = logging.getLogger()
+db = Db(PATH)
 
 
 def init_color():
@@ -88,7 +103,7 @@ class Pointer:
 
 class NotesList:
     def __init__(self) -> None:
-        self.items: List[Relation] = parse_all(get_all())
+        self.items: List[Relation] = parse_all(db)
         self.pointer: Pointer = Pointer(len(self.items) - 1)
 
     def print_items(self, stdscr):
@@ -112,51 +127,73 @@ class NotesList:
         if key == curses.KEY_DOWN:
             self.pointer.down()
 
+        name = self.items[self.pointer.selected].name
+        if name:
+            name = name.strip()
+        else:
+            return
         if key == ord("a"):
             pos_y = self.pointer.max + 1
             name = input_box(stdscr, pos_y=pos_y, prompt=" │>[n] ")
             if not name:
                 return
-            add_item(name=name, note="Welcome")
-            notify(f"note : {name} created")
+            if add_item(name=name, note="Welcome", db=db):
+                commit_file(".")
+                time.sleep(0.05)
+                notify(f"note : {name} created")
+
+            else:
+                notify(f"{name.capitalize()} already exists")
+                return
             self.refresh()
             return
         if not self.items:
             return
         if key == ord(" "):
-            id = self.items[self.pointer.selected].id
-            toggle_done(id)
+            if name:
+                toggle_done(name, db)
         if key in (curses.KEY_ENTER, 10, 13):
-            relation = self.items[self.pointer.selected]
             curses.endwin()
-            write_note(data=relation)
+            write_note(name)
+            commit_file(".")
             curses.doupdate()
         if key == ord("d"):
-            item = self.items[self.pointer.selected]
-            remove_item(item.id)
+            # TODO: implement double "d" for delete
+            if name:
+                if remove_item(name, db):
+                    commit_file(".")
+                    notify(f"note : {name} deleted", 2)
+                else:
+                    notify(f"{name} does not exist")
+                    return
             if self.pointer.selected == self.pointer.max:
                 self.pointer.selected -= 1
-            notify(f"note : {item.name} deleted", 2)
         if key == ord("e"):
             name = edit_note(stdscr, note=self)
         if key == ord("h"):
-            draw_footer(stdscr)
+            draw_footer(stdscr, view_footer)
         if key == ord("g"):
             jump_to(stdscr, self)
         self.refresh()
 
     def refresh(self):
-        self.items = parse_all(get_all())
+        self.items = parse_all(db)
         self.pointer.max = len(self.items) - 1
 
 
 def edit_note(stdscr, note: NotesList):
     pos_y = note.pointer.selected
-    item = note.items[pos_y]
-    name = input_box(stdscr=stdscr, pos_y=pos_y, prefill=item.name, prompt=" │>[e] ")
+    old_name = note.items[pos_y].name
+    assert old_name
+    name = input_box(stdscr=stdscr, pos_y=pos_y, prefill=old_name, prompt=" │>[e] ")
     if not name:
         return
-    update_name(id=item.id, name=name)
+    if update_name(old_name, name, db):
+        commit_file(".")
+        notify(f"{name} updated")
+    else:
+        notify(f"{name} does not exist")
+
     note.refresh()
 
 
@@ -219,7 +256,16 @@ def draw_view_window(win, height, width, content):
     win.refresh()
 
 
-def footer(win, height: int, width: int):
+def draw_commit_window(win, height, width, commits):
+    win.resize(height - 2, width // 2 - 2)
+    win.mvwin(0, 0)
+    win.erase()
+    print_items(commits, win)
+    win.box()
+    win.refresh()
+
+
+def view_footer(win, height: int, width: int):
     space = 2
     if height // 2 < 12:
         space = 1
@@ -241,6 +287,7 @@ def footer(win, height: int, width: int):
         ("  A   -> New Note", white),
         ("  D   -> Delete Note", red),
         ("  G   -> GoTo", white),
+        ("  V   -> Version Control", white),
     ):
         win.addstr(count + 2, 4, tag[0], tag[1])
         count += space
@@ -248,7 +295,29 @@ def footer(win, height: int, width: int):
     win.refresh()
 
 
-def draw_footer(stdscr):
+def git_footer(win, height: int, width: int):
+    space = 2
+    if height // 2 < 12:
+        space = 1
+    if (height // 2) < 10:
+        win.erase()
+        return
+
+    win.resize(height // 2, width // 2)
+    win.mvwin(height // 4, width // 4)
+    win.erase()
+    count = 1
+    white = curses.color_pair(1) | curses.A_BOLD
+    blue = curses.color_pair(4) | curses.A_BOLD | curses.A_DIM
+    red = curses.color_pair(2) | curses.A_BOLD
+    for tag in (("c -> coppy version to clipboard", white),):
+        win.addstr(count + 2, 4, tag[0], tag[1])
+        count += space
+    win.box()
+    win.refresh()
+
+
+def draw_footer(stdscr, footer):
     height, width = stdscr.getmaxyx()
     win = curses.newwin(height // 2, width // 2, height // 2, width // 2)
 
@@ -285,6 +354,7 @@ def chunk_content(content: str, width: int, hight: int) -> list[str]:
 def get_note_content(notes_list: NotesList) -> str:
     pointer = notes_list.pointer.selected
     rel = notes_list.items[pointer]
+    assert rel.note
     return rel.note.strip("\n").strip()
 
 
@@ -311,10 +381,9 @@ def generate_notification(win: curses.window, msg: str, width, pos_y, pos_x, col
     win.resize(5, width)
     win.mvwin(pos_y, pos_x)
     win.erase()
-    logger.info(color)
     win.addstr(
         2,
-        int(width * 0.5) - len(msg) + 4,
+        int(width * 0.5) - len(msg) + 5,
         msg,
         curses.color_pair(color) | curses.A_BOLD,
     )
@@ -363,6 +432,114 @@ def notify(msg, color=1):
     NOTIFICATION.set_msg(msg, color)
 
 
+def get_single_commit(item: dict) -> Commit:
+    return Commit(**item)
+
+
+def get_all_commits(file: str) -> Commits:
+    result = subprocess.run(
+        [
+            "git",
+            "log",
+            "--follow",
+            '--pretty=format:{%n  "hash": "%H",%n  "author": "%an",%n  "email": "%ae",%n  "date": "%ad",%n  "message": "%s"%n},',
+            "--",
+            file,
+        ],
+        cwd=PATH,
+        capture_output=True,
+        text=True,
+    )
+    out = f"[{result.stdout[:-1]}]"
+    jout = json.loads(out)
+    return Commits(commits=[get_single_commit(i) for i in jout])
+
+
+def get_file_with_hash(hash: str, name: str) -> Optional[str]:
+    try:
+        result = subprocess.run(
+            [
+                "git",
+                "show",
+                f"{hash}:{name}",
+            ],
+            cwd=PATH,
+            capture_output=True,
+            text=True,
+        )
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        if e.returncode == 128:
+            return None
+
+
+def commit_file(name: str):
+    try:
+        today = time.strftime("%d-%m-%y")
+
+        out1 = subprocess.run(["git", "add", name], check=True, capture_output=True)
+        out2 = subprocess.run(
+            ["git", "commit", "-m", today], check=True, capture_output=True
+        )
+        logger.info("\n--------------\n")
+        logger.info(out1)
+        logger.info("\n--------------\n")
+        logger.info(out2)
+    except subprocess.CalledProcessError as e:
+        logger.info("\n--------------\n")
+        logger.info(e)
+        logger.info("\n--------------\n")
+        if e.returncode == 128:
+            notify(f"failed to commit{name if name != '.' else '*'}")
+            return None
+
+
+def version_control(
+    stdscr, git_win, view_win, notes: NotesList, key, height, width, count
+):
+    if key == ord("v"):
+        file = notes.items[notes.pointer.selected].name
+        assert file
+        commits: Commits = get_all_commits(file)
+        assert file
+        while True:
+            com = commits.get()
+            if not com:
+                break
+            content = get_file_with_hash(com.hash, file)
+            draw_commit_window(git_win, height, width, commits)
+            draw_view_window(
+                view_win,
+                height,
+                width,
+                content=content,
+            )
+            handle_notification(width, count)
+            key1 = stdscr.getch()
+            if key1 == curses.KEY_UP:
+                commits.up()
+            if key1 == curses.KEY_DOWN:
+                commits.down()
+            if key1 == ord("c"):
+                logger.info("CUSRED ROUTE")
+                pyperclip.copy(content if content else "")
+                notify("Content coppied to clipboard")
+            if key1 == ord("h"):
+                draw_footer(stdscr, git_footer)
+            if key1 == ord("q"):
+                break
+            time.sleep(0.05)
+
+
+def print_items(commits: Commits, win):
+    for idx, i in enumerate(commits.commits):
+        point = " "
+        color = curses.color_pair(1) | curses.A_DIM
+        if idx == commits.pointer:
+            color = curses.color_pair(1) | curses.A_STANDOUT | curses.A_BOLD
+        win.addstr(idx + 1, 1, f"{idx + 1}│{point}{i.date}", color)
+
+
 NOTIFICATION = Notification()
 
 
@@ -376,10 +553,11 @@ def main(stdscr):
 
     notes = NotesList()
 
-    if not get_all():
-        add_item("welcome", "welcome")
+    if not get_all(db):
+        add_item("welcome", "welcome", db)
 
     view_win = curses.newwin((height) - 1, (width // 2) - 2, 0, width // 2)
+    git_win = curses.newwin((height) - 1, (width // 2) - 2, 0, 0)
     count = None
     while True:
         stdscr.clear()
@@ -396,6 +574,7 @@ def main(stdscr):
         key = stdscr.getch()
         if key == ord("q"):
             break
+        version_control(stdscr, git_win, view_win, notes, key, height, width, count)
         notes.update(stdscr, key=key)
         time.sleep(0.005)
         stdscr.refresh()
