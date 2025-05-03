@@ -10,7 +10,7 @@ from dataclasses import dataclass
 import orjson
 
 logger = logging.getLogger()
-PATH = Path("./notes")
+PATH = (Path.home() / Path("notesdb")).absolute()
 
 
 class Db:
@@ -88,6 +88,7 @@ def write_note(name: str):
 def handle_empty_file() -> Dict[str, bool]:
     with open(PATH / "one", "+w") as file:
         file.write("Welcome")
+    subprocess.run(["git", "init"], cwd=PATH)
     return {"one": False}
 
 
@@ -103,6 +104,7 @@ def create_table():
 
 def add_item(name: str, note: str, db: Db) -> Optional[bool]:
     """add a new item to database"""
+    name = name.strip()
     if name in db.file:
         return
     db.file[name] = False
@@ -125,6 +127,7 @@ def remove_item(name: str, db: Db) -> Optional[bool]:
 
 def update_name(old_name: str, new_name: str, db: Db) -> bool:
     """Update name by id in database"""
+    new_name = new_name.strip()
     if new_name in db.file:
         return False
     db.file[new_name] = db.file[old_name]
@@ -137,6 +140,7 @@ def update_name(old_name: str, new_name: str, db: Db) -> bool:
 
 def update_note(name: str, note: str, db: Db) -> Optional[bool]:
     """Update note content by id"""
+    name = name.strip()
     if name not in db.file:
         return None
 
@@ -147,6 +151,7 @@ def update_note(name: str, note: str, db: Db) -> Optional[bool]:
 
 def toggle_done(name: str, db: Db) -> Optional[bool]:
     """toggle if note/todo is done"""
+    name = name.strip()
     if name not in db.file:
         return None
     db.file[name] = not (db.file[name])
@@ -163,6 +168,7 @@ def filter(done: bool, db: Db) -> List[str]:
 
 def get_by_id(name: str, db: Db) -> Optional[str]:
     """get a note by id"""
+    name = name.strip()
     if name not in db.file:
         return None
     with open(PATH / name, "r") as file:

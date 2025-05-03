@@ -19,3 +19,1425 @@ INFO:root:Command '['git', 'add', 'now']' returned non-zero exit status 128.
 INFO:root:
 --------------
 
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ff84f22] 03-05-25\n 4 files changed, 3 insertions(+), 2 deletions(-)\n rename three => four (100%)\n create mode 100644 hello\n create mode 100644 not yet\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 0f4dfea] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 not yet\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main f434ad7] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 hello\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 6ab7892] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 four\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 2a6d5bf] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 three\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main dd65e70] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 four\n', stderr=b'')
+
+INFO:root:CUSRED ROUTE
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 12e334b] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 a\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main fa6f832] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 c\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 7c3ebcc] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 q\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 9ea766e] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 qwerf\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 0863618] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 qwerthj\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ead3750] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 uiyb\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main c0264c9] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 kbuna\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 11c8b36] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 kihv \n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 7a8af0b] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 lmknuyg\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 4db9031] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 lknuhygtv\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main f82bb78] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 bvghcf vbnm,,\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main daf6932] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 knbjhjytynjmk,\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 28ed153] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 , mbhgyhujnkm\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 4f565d8] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 m ,bhghbn \n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 3c67f70] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644  mbhhbn \n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 9681aad] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 , mhbn \n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 06096a1] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644  mhbjn \n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 83c1972] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644  m,jm\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ae69b2e] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 , mj\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 5af4b6b] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 ,mnjjn\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main f7cbba5] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 ,mnjjn\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 8e42a23] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 , mj\n', stderr=b'')
+
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 3617cd2] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 , mbhgyhujnkm\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main d2be878] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 knbjhjytynjmk,\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 007cebd] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 bvghcf vbnm,,\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main a744f59] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 lknuhygtv\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 2efc678] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 lmknuyg\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 0ef7c7c] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 kbuna\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 8a2fa37] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 uiyb\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 00097e1] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 qwerthj\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 1f34149] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 qwerf\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main d9c1b73] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 q\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 87ff9bf] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 c\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 30ace37] 03-05-25\n 1 file changed, 1 deletion(-)\n delete mode 100644 a\n', stderr=b'')
+
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 9a2483c] 03-05-25\n 4 files changed, 3 insertions(+), 2 deletions(-)\n rename three => four (100%)\n create mode 100644 hell now\n create mode 100644 hell yead\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 301b7c9] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 q\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main f923a3b] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 w\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ff4ba73] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 e\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 8967c4b] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 r\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 13ce151] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 t\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main c159fdb] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 i\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ee07b26] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 j\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 70b72fe] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 k\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 0375cce] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 l\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 0766d29] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 jn\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 3d7e2aa] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 lkn\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 1229dd7] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 pn4\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 72ef629] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 erdf\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main e10be4e] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 rdf\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 459ce6f] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 dfvc\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ed115f6] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 rgdf\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 9e8d98d] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 rfv c\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 8749460] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 tgv\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 0e1967b] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 bfv \n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main ce290fc] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 yjh\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 836d0af] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 jyhn\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 846a5d4] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 htrh\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 3282a7f] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 tgrh\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main d357e53] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 brt\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 20b0bfa] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 bdrf\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 3906fce] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 rev\n', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main de1844d] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 wd\n', stderr=b'')
+
+INFO:root:<frontend.curse.Pointer object at 0x7dc9ac3d9910>,0,0,29
+INFO:root:<frontend.curse.Pointer object at 0x7dc9ac3d9910>,0,0,29
+INFO:root:0,0,0,29
+INFO:root:1,0,0,29
+INFO:root:2,0,0,29
+INFO:root:3,0,0,29
+INFO:root:4,0,0,29
+INFO:root:4,0,0,29
+INFO:root:4,0,0,29
+INFO:root:5,0,0,29
+INFO:root:6,0,0,29
+INFO:root:7,0,0,29
+INFO:root:8,0,0,29
+INFO:root:9,0,0,29
+INFO:root:sel=0,st=0,end=0,hi=29
+INFO:root:sel=1,st=0,end=0,hi=29
+INFO:root:sel=0,st=0,end=0,hi=29
+INFO:root:sel=1,st=0,end=0,hi=29
+INFO:root:sel=2,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=6,st=0,end=0,hi=29
+INFO:root:sel=7,st=0,end=0,hi=29
+INFO:root:sel=8,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=8,st=0,end=0,hi=29
+INFO:root:sel=7,st=0,end=0,hi=29
+INFO:root:sel=6,st=0,end=0,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=2,st=0,end=0,hi=29
+INFO:root:sel=1,st=0,end=0,hi=29
+INFO:root:sel=0,st=0,end=0,hi=29
+INFO:root:sel=1,st=0,end=0,hi=29
+INFO:root:sel=2,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=6,st=0,end=0,hi=29
+INFO:root:sel=7,st=0,end=0,hi=29
+INFO:root:sel=8,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=12,st=0,end=0,hi=29
+INFO:root:sel=12,st=0,end=0,hi=29
+INFO:root:sel=12,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=14,st=0,end=0,hi=29
+INFO:root:sel=14,st=0,end=0,hi=29
+INFO:root:sel=14,st=0,end=0,hi=29
+INFO:root:sel=15,st=0,end=0,hi=29
+INFO:root:sel=15,st=0,end=0,hi=29
+INFO:root:sel=15,st=0,end=0,hi=29
+INFO:root:sel=16,st=0,end=0,hi=29
+INFO:root:sel=16,st=0,end=0,hi=29
+INFO:root:sel=16,st=0,end=0,hi=29
+INFO:root:sel=17,st=0,end=0,hi=29
+INFO:root:sel=17,st=0,end=0,hi=29
+INFO:root:sel=17,st=0,end=0,hi=29
+INFO:root:sel=18,st=0,end=0,hi=29
+INFO:root:sel=18,st=0,end=0,hi=29
+INFO:root:sel=18,st=0,end=0,hi=29
+INFO:root:sel=19,st=0,end=0,hi=29
+INFO:root:sel=19,st=0,end=0,hi=29
+INFO:root:sel=19,st=0,end=0,hi=29
+INFO:root:sel=20,st=0,end=0,hi=29
+INFO:root:sel=20,st=0,end=0,hi=29
+INFO:root:sel=20,st=0,end=0,hi=29
+INFO:root:sel=21,st=0,end=0,hi=29
+INFO:root:sel=21,st=0,end=0,hi=29
+INFO:root:sel=21,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=21,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 4c7063e] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 bfv\n', stderr=b'')
+
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=21,st=0,end=0,hi=29
+INFO:root:sel=20,st=0,end=0,hi=29
+INFO:root:sel=19,st=0,end=0,hi=29
+INFO:root:sel=18,st=0,end=0,hi=29
+INFO:root:sel=17,st=0,end=0,hi=29
+INFO:root:sel=16,st=0,end=0,hi=29
+INFO:root:sel=15,st=0,end=0,hi=29
+INFO:root:sel=14,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=12,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=8,st=0,end=0,hi=29
+INFO:root:sel=7,st=0,end=0,hi=29
+INFO:root:sel=6,st=0,end=0,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=2,st=0,end=0,hi=29
+INFO:root:sel=1,st=0,end=0,hi=29
+INFO:root:sel=0,st=0,end=0,hi=29
+INFO:root:sel=31,st=0,end=0,hi=29
+INFO:root:sel=30,st=0,end=0,hi=29
+INFO:root:sel=29,st=0,end=0,hi=29
+INFO:root:sel=28,st=0,end=0,hi=29
+INFO:root:sel=29,st=1,end=1,hi=29
+INFO:root:sel=30,st=2,end=2,hi=29
+INFO:root:sel=31,st=3,end=3,hi=29
+INFO:root:sel=0,st=4,end=4,hi=29
+INFO:root:sel=1,st=4,end=4,hi=29
+INFO:root:sel=2,st=4,end=4,hi=29
+INFO:root:sel=3,st=4,end=4,hi=29
+INFO:root:sel=4,st=4,end=4,hi=29
+INFO:root:sel=5,st=4,end=4,hi=29
+INFO:root:sel=6,st=4,end=4,hi=29
+INFO:root:sel=7,st=4,end=4,hi=29
+INFO:root:sel=8,st=4,end=4,hi=29
+INFO:root:sel=9,st=4,end=4,hi=29
+INFO:root:sel=8,st=3,end=3,hi=29
+INFO:root:sel=7,st=2,end=2,hi=29
+INFO:root:sel=6,st=1,end=1,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=2,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 27fd2a0] 03-05-25\n 1 file changed, 1 insertion(+), 1 deletion(-)\n', stderr=b'')
+
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=2,st=0,end=0,hi=29
+INFO:root:sel=3,st=0,end=0,hi=29
+INFO:root:sel=4,st=0,end=0,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=6,st=0,end=0,hi=29
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 9dde99a] 03-05-25\n 1 file changed, 1 insertion(+), 1 deletion(-)\n', stderr=b'')
+
+INFO:root:sel=5,st=0,end=0,hi=29
+INFO:root:sel=6,st=0,end=0,hi=29
+INFO:root:sel=7,st=0,end=0,hi=29
+INFO:root:sel=8,st=0,end=0,hi=29
+INFO:root:sel=9,st=0,end=0,hi=29
+INFO:root:sel=10,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:sel=11,st=0,end=0,hi=29
+INFO:root:sel=12,st=0,end=0,hi=29
+INFO:root:sel=13,st=0,end=0,hi=29
+INFO:root:sel=14,st=0,end=0,hi=29
+INFO:root:sel=15,st=0,end=0,hi=29
+INFO:root:sel=16,st=0,end=0,hi=29
+INFO:root:sel=17,st=0,end=0,hi=29
+INFO:root:sel=18,st=0,end=0,hi=29
+INFO:root:sel=19,st=0,end=0,hi=29
+INFO:root:sel=20,st=0,end=0,hi=29
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:sel=20,st=0,end=0,hi=29
+INFO:root:sel=21,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=22,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=25,st=0,end=0,hi=29
+INFO:root:sel=25,st=0,end=0,hi=29
+INFO:root:sel=25,st=0,end=0,hi=29
+INFO:root:sel=26,st=0,end=0,hi=29
+INFO:root:sel=26,st=0,end=0,hi=29
+INFO:root:sel=26,st=0,end=0,hi=29
+INFO:root:sel=25,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:sel=23,st=0,end=0,hi=29
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:Command '['git', 'commit', '-m', '03-05-25']' returned non-zero exit status 1.
+INFO:root:sel=24,st=0,end=0,hi=29
+INFO:root:sel=0,st=0,end=28,sele=Relation(name='one', note='dont worry\n', done=True)
+INFO:root:sel=1,st=0,end=28,sele=Relation(name='two', note='Welcome', done=True)
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:four
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:four
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:False
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:True
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:False
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:True
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:False
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:False
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:Erororor
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=6,end=34,sele=one
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=6,end=34,sele=one
+INFO:root:sel=0,st=6,end=34,sele=one
+INFO:root:sel=1,st=6,end=34,sele=two
+INFO:root:sel=2,st=6,end=34,sele=four
+INFO:root:sel=3,st=6,end=34,sele=hell now
+INFO:root:sel=3,st=6,end=34,sele=hell now
+INFO:root:sel=3,st=6,end=34,sele=hell now
+INFO:root:sel=4,st=6,end=34,sele=hell yead
+INFO:root:sel=4,st=6,end=34,sele=hell yead
+INFO:root:sel=4,st=6,end=34,sele=hell yead
+INFO:root:sel=5,st=6,end=34,sele=q
+INFO:root:sel=6,st=6,end=34,sele=w
+INFO:root:sel=7,st=6,end=34,sele=e
+INFO:root:sel=6,st=5,end=33,sele=w
+INFO:root:sel=5,st=4,end=32,sele=q
+INFO:root:sel=4,st=3,end=31,sele=hell yead
+INFO:root:sel=3,st=2,end=30,sele=hell now
+INFO:root:sel=2,st=1,end=29,sele=four
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=0,end=28,sele=wd
+INFO:root:sel=0,st=1,end=29,sele=one
+INFO:root:sel=1,st=1,end=29,sele=two
+INFO:root:sel=2,st=1,end=29,sele=four
+INFO:root:sel=3,st=1,end=29,sele=hell now
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:error with name =bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:{'one': False, 'two': True, 'four': True, 'hell now': False, 'hell yead': False, 'q': False, 'w': False, 'e': False, 'r': False, 't': False, 'i': False, 'j': False, 'k': False, 'l': False, 'jn': False, 'lkn': False, 'pn4': False, 'erdf': False, 'rdf': True, 'dfvc': False, 'rgdf': False, 'rfv c': False, 'tgv': False, 'bfv ': True, 'yjh': True, 'jyhn': False, 'htrh': False, 'tgrh': False, 'brt': False, 'bdrf': False, 'rev': False, 'wd': False}
+INFO:root:error with name =bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=29,st=0,end=28,sele=bdrf
+INFO:root:sel=30,st=1,end=29,sele=rev
+INFO:root:sel=31,st=2,end=30,sele=wd
+INFO:root:sel=0,st=3,end=31,sele=one
+INFO:root:sel=31,st=2,end=30,sele=wd
+INFO:root:sel=30,st=1,end=29,sele=rev
+INFO:root:sel=29,st=0,end=28,sele=bdrf
+INFO:root:sel=28,st=0,end=28,sele=brt
+INFO:root:sel=27,st=0,end=28,sele=tgrh
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:{'one': False, 'two': True, 'four': True, 'hell now': False, 'hell yead': False, 'q': False, 'w': False, 'e': False, 'r': False, 't': False, 'i': False, 'j': False, 'k': False, 'l': False, 'jn': False, 'lkn': False, 'pn4': False, 'erdf': False, 'rdf': True, 'dfvc': False, 'rgdf': False, 'rfv c': False, 'tgv': False, 'bfv ': True, 'yjh': True, 'jyhn': False, 'htrh': False, 'tgrh': False, 'brt': False, 'bdrf': False, 'rev': False, 'wd': False}
+INFO:root:error with name =bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:{'one': False, 'two': True, 'four': True, 'hell now': False, 'hell yead': False, 'q': False, 'w': False, 'e': False, 'r': False, 't': False, 'i': False, 'j': False, 'k': False, 'l': False, 'jn': False, 'lkn': False, 'pn4': False, 'erdf': False, 'rdf': True, 'dfvc': False, 'rgdf': False, 'rfv c': False, 'tgv': False, 'bfv ': True, 'yjh': True, 'jyhn': False, 'htrh': False, 'tgrh': False, 'brt': False, 'bdrf': False, 'rev': False, 'wd': False}
+INFO:root:error with name =bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=23,st=0,end=28,sele=bfv 
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=6,end=34,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=6,end=34,sele=one
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=6,end=34,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=0,end=28,sele=wd
+INFO:root:sel=30,st=0,end=28,sele=rev
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=-1,end=27,sele=one
+INFO:root:sel=31,st=-1,end=27,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=0,end=28,sele=wd
+INFO:root:sel=30,st=0,end=28,sele=rev
+INFO:root:sel=29,st=28,end=56,sele=bdrf
+INFO:root:sel=28,st=27,end=55,sele=brt
+INFO:root:sel=27,st=26,end=54,sele=tgrh
+INFO:root:sel=26,st=25,end=53,sele=htrh
+INFO:root:sel=25,st=24,end=52,sele=jyhn
+INFO:root:sel=24,st=23,end=51,sele=yjh
+INFO:root:sel=23,st=22,end=50,sele=bfv
+INFO:root:sel=22,st=21,end=49,sele=tgv
+INFO:root:sel=21,st=20,end=48,sele=rfv c
+INFO:root:sel=20,st=19,end=47,sele=rgdf
+INFO:root:sel=19,st=18,end=46,sele=dfvc
+INFO:root:sel=18,st=17,end=45,sele=rdf
+INFO:root:sel=17,st=16,end=44,sele=erdf
+INFO:root:sel=16,st=15,end=43,sele=pn4
+INFO:root:sel=15,st=14,end=42,sele=lkn
+INFO:root:sel=14,st=13,end=41,sele=jn
+INFO:root:sel=13,st=12,end=40,sele=l
+INFO:root:sel=12,st=11,end=39,sele=k
+INFO:root:sel=11,st=10,end=38,sele=j
+INFO:root:sel=10,st=9,end=37,sele=i
+INFO:root:sel=9,st=8,end=36,sele=t
+INFO:root:sel=8,st=7,end=35,sele=r
+INFO:root:sel=7,st=6,end=34,sele=e
+INFO:root:sel=6,st=5,end=33,sele=w
+INFO:root:sel=5,st=4,end=32,sele=q
+INFO:root:sel=4,st=3,end=31,sele=hell yead
+INFO:root:sel=3,st=2,end=30,sele=hell now
+INFO:root:sel=2,st=1,end=29,sele=four
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=-1,end=27,sele=one
+INFO:root:sel=31,st=-1,end=27,sele=wd
+INFO:root:sel=30,st=-1,end=27,sele=rev
+INFO:root:sel=29,st=28,end=56,sele=bdrf
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=30,st=29,end=57,sele=rev
+INFO:root:sel=29,st=28,end=56,sele=bdrf
+INFO:root:sel=28,st=27,end=55,sele=brt
+INFO:root:sel=27,st=26,end=54,sele=tgrh
+INFO:root:sel=26,st=25,end=53,sele=htrh
+INFO:root:sel=25,st=24,end=52,sele=jyhn
+INFO:root:sel=24,st=23,end=51,sele=yjh
+INFO:root:sel=23,st=22,end=50,sele=bfv
+INFO:root:sel=22,st=21,end=49,sele=tgv
+INFO:root:sel=21,st=20,end=48,sele=rfv c
+INFO:root:sel=20,st=19,end=47,sele=rgdf
+INFO:root:sel=19,st=18,end=46,sele=dfvc
+INFO:root:sel=18,st=17,end=45,sele=rdf
+INFO:root:sel=17,st=16,end=44,sele=erdf
+INFO:root:sel=16,st=15,end=43,sele=pn4
+INFO:root:sel=15,st=14,end=42,sele=lkn
+INFO:root:sel=14,st=13,end=41,sele=jn
+INFO:root:sel=13,st=12,end=40,sele=l
+INFO:root:sel=12,st=11,end=39,sele=k
+INFO:root:sel=11,st=10,end=38,sele=j
+INFO:root:sel=10,st=9,end=37,sele=i
+INFO:root:sel=9,st=8,end=36,sele=t
+INFO:root:sel=8,st=7,end=35,sele=r
+INFO:root:sel=7,st=6,end=34,sele=e
+INFO:root:sel=6,st=5,end=33,sele=w
+INFO:root:sel=5,st=4,end=32,sele=q
+INFO:root:sel=4,st=3,end=31,sele=hell yead
+INFO:root:sel=3,st=2,end=30,sele=hell now
+INFO:root:sel=2,st=1,end=29,sele=four
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=29,st=0,end=28,sele=bdrf
+INFO:root:sel=30,st=1,end=29,sele=rev
+INFO:root:sel=31,st=2,end=30,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=28,st=0,end=28,sele=brt
+INFO:root:sel=29,st=1,end=29,sele=bdrf
+INFO:root:sel=30,st=2,end=30,sele=rev
+INFO:root:sel=30,st=2,end=30,sele=rev
+INFO:root:sel=29,st=1,end=29,sele=bdrf
+INFO:root:sel=28,st=0,end=28,sele=brt
+INFO:root:sel=27,st=0,end=28,sele=tgrh
+INFO:root:sel=27,st=0,end=28,sele=tgrh
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:30>30+29
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=28,st=29,end=57,sele=brt
+INFO:root:sel=27,st=28,end=56,sele=tgrh
+INFO:root:sel=26,st=27,end=55,sele=htrh
+INFO:root:sel=25,st=26,end=54,sele=jyhn
+INFO:root:sel=24,st=25,end=53,sele=yjh
+INFO:root:sel=23,st=24,end=52,sele=bfv
+INFO:root:sel=22,st=23,end=51,sele=tgv
+INFO:root:sel=21,st=22,end=50,sele=rfv c
+INFO:root:sel=20,st=21,end=49,sele=rgdf
+INFO:root:sel=19,st=20,end=48,sele=dfvc
+INFO:root:sel=18,st=19,end=47,sele=rdf
+INFO:root:sel=17,st=18,end=46,sele=erdf
+INFO:root:sel=16,st=17,end=45,sele=pn4
+INFO:root:sel=15,st=16,end=44,sele=lkn
+INFO:root:sel=14,st=15,end=43,sele=jn
+INFO:root:sel=13,st=14,end=42,sele=l
+INFO:root:sel=12,st=13,end=41,sele=k
+INFO:root:sel=11,st=12,end=40,sele=j
+INFO:root:sel=10,st=11,end=39,sele=i
+INFO:root:sel=9,st=10,end=38,sele=t
+INFO:root:sel=8,st=9,end=37,sele=r
+INFO:root:sel=7,st=8,end=36,sele=e
+INFO:root:sel=6,st=7,end=35,sele=w
+INFO:root:sel=5,st=6,end=34,sele=q
+INFO:root:sel=4,st=5,end=33,sele=hell yead
+INFO:root:sel=3,st=4,end=32,sele=hell now
+INFO:root:sel=2,st=3,end=31,sele=four
+INFO:root:sel=1,st=2,end=30,sele=two
+INFO:root:sel=0,st=1,end=29,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=30,st=29,end=57,sele=rev
+INFO:root:sel=29,st=28,end=56,sele=bdrf
+INFO:root:sel=28,st=27,end=55,sele=brt
+INFO:root:sel=27,st=26,end=54,sele=tgrh
+INFO:root:sel=26,st=25,end=53,sele=htrh
+INFO:root:sel=25,st=24,end=52,sele=jyhn
+INFO:root:sel=24,st=23,end=51,sele=yjh
+INFO:root:sel=23,st=22,end=50,sele=bfv
+INFO:root:sel=22,st=21,end=49,sele=tgv
+INFO:root:sel=21,st=20,end=48,sele=rfv c
+INFO:root:sel=20,st=19,end=47,sele=rgdf
+INFO:root:sel=19,st=18,end=46,sele=dfvc
+INFO:root:sel=18,st=17,end=45,sele=rdf
+INFO:root:sel=17,st=16,end=44,sele=erdf
+INFO:root:sel=16,st=15,end=43,sele=pn4
+INFO:root:sel=15,st=14,end=42,sele=lkn
+INFO:root:sel=14,st=13,end=41,sele=jn
+INFO:root:sel=13,st=12,end=40,sele=l
+INFO:root:sel=12,st=11,end=39,sele=k
+INFO:root:sel=11,st=10,end=38,sele=j
+INFO:root:sel=10,st=9,end=37,sele=i
+INFO:root:sel=9,st=8,end=36,sele=t
+INFO:root:sel=8,st=7,end=35,sele=r
+INFO:root:sel=7,st=6,end=34,sele=e
+INFO:root:sel=6,st=5,end=33,sele=w
+INFO:root:sel=5,st=4,end=32,sele=q
+INFO:root:sel=6,st=4,end=32,sele=w
+INFO:root:sel=5,st=3,end=31,sele=q
+INFO:root:sel=31,st=3,end=31,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=27,st=0,end=28,sele=tgrh
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:32>32+29
+INFO:root:sel=31,st=32,end=60,sele=wd
+INFO:root:sel=31,st=32,end=60,sele=wd
+INFO:root:sel=31,st=32,end=60,sele=wd
+INFO:root:sel=31,st=32,end=60,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:30>30+29
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:32>0+29
+INFO:root:sel=31,st=32,end=60,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=30,st=31,end=59,sele=rev
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=28,st=29,end=57,sele=brt
+INFO:root:sel=29,st=30,end=58,sele=bdrf
+INFO:root:sel=28,st=29,end=57,sele=brt
+INFO:root:sel=27,st=28,end=56,sele=tgrh
+INFO:root:sel=26,st=27,end=55,sele=htrh
+INFO:root:sel=25,st=26,end=54,sele=jyhn
+INFO:root:sel=24,st=25,end=53,sele=yjh
+INFO:root:sel=23,st=24,end=52,sele=bfv
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=31,st=31,end=59,sele=wd
+INFO:root:sel=30,st=30,end=58,sele=rev
+INFO:root:sel=29,st=29,end=57,sele=bdrf
+INFO:root:sel=28,st=28,end=56,sele=brt
+INFO:root:sel=27,st=27,end=55,sele=tgrh
+INFO:root:sel=26,st=26,end=54,sele=htrh
+INFO:root:sel=25,st=25,end=53,sele=jyhn
+INFO:root:sel=26,st=25,end=53,sele=htrh
+INFO:root:sel=27,st=26,end=54,sele=tgrh
+INFO:root:sel=28,st=27,end=55,sele=brt
+INFO:root:sel=29,st=28,end=56,sele=bdrf
+INFO:root:sel=30,st=29,end=57,sele=rev
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=5,st=0,end=28,sele=q
+INFO:root:sel=6,st=0,end=28,sele=w
+INFO:root:sel=7,st=0,end=28,sele=e
+INFO:root:sel=8,st=0,end=28,sele=r
+INFO:root:sel=9,st=0,end=28,sele=t
+INFO:root:sel=10,st=0,end=28,sele=i
+INFO:root:sel=11,st=0,end=28,sele=j
+INFO:root:sel=12,st=0,end=28,sele=k
+INFO:root:sel=13,st=0,end=28,sele=l
+INFO:root:sel=14,st=0,end=28,sele=jn
+INFO:root:sel=15,st=0,end=28,sele=lkn
+INFO:root:sel=16,st=0,end=28,sele=pn4
+INFO:root:sel=17,st=0,end=28,sele=erdf
+INFO:root:sel=18,st=0,end=28,sele=rdf
+INFO:root:sel=19,st=0,end=28,sele=dfvc
+INFO:root:sel=20,st=0,end=28,sele=rgdf
+INFO:root:sel=21,st=0,end=28,sele=rfv c
+INFO:root:sel=22,st=0,end=28,sele=tgv
+INFO:root:sel=23,st=0,end=28,sele=bfv
+INFO:root:sel=24,st=0,end=28,sele=yjh
+INFO:root:sel=25,st=0,end=28,sele=jyhn
+INFO:root:sel=26,st=0,end=28,sele=htrh
+INFO:root:sel=27,st=1,end=29,sele=tgrh
+INFO:root:sel=28,st=2,end=30,sele=brt
+INFO:root:sel=29,st=3,end=31,sele=bdrf
+INFO:root:sel=30,st=4,end=32,sele=rev
+INFO:root:sel=31,st=5,end=33,sele=wd
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=31,st=30,end=58,sele=wd
+INFO:root:sel=30,st=29,end=57,sele=rev
+INFO:root:sel=29,st=28,end=56,sele=bdrf
+INFO:root:sel=28,st=27,end=55,sele=brt
+INFO:root:sel=27,st=26,end=54,sele=tgrh
+INFO:root:sel=26,st=25,end=53,sele=htrh
+INFO:root:sel=25,st=24,end=52,sele=jyhn
+INFO:root:sel=24,st=23,end=51,sele=yjh
+INFO:root:sel=24,st=23,end=51,sele=yjh
+INFO:root:sel=24,st=23,end=51,sele=yjh
+INFO:root:sel=23,st=22,end=50,sele=bfv
+INFO:root:sel=22,st=21,end=49,sele=tgv
+INFO:root:sel=21,st=20,end=48,sele=rfv c
+INFO:root:sel=20,st=19,end=47,sele=rgdf
+INFO:root:sel=19,st=18,end=46,sele=dfvc
+INFO:root:sel=18,st=17,end=45,sele=rdf
+INFO:root:sel=17,st=16,end=44,sele=erdf
+INFO:root:sel=17,st=16,end=44,sele=erdf
+INFO:root:sel=17,st=16,end=44,sele=erdf
+INFO:root:sel=16,st=15,end=43,sele=pn4
+INFO:root:sel=15,st=14,end=42,sele=lkn
+INFO:root:sel=14,st=13,end=41,sele=jn
+INFO:root:sel=13,st=12,end=40,sele=l
+INFO:root:sel=12,st=11,end=39,sele=k
+INFO:root:sel=11,st=10,end=38,sele=j
+INFO:root:sel=10,st=9,end=37,sele=i
+INFO:root:sel=10,st=9,end=37,sele=i
+INFO:root:sel=10,st=9,end=37,sele=i
+INFO:root:sel=9,st=8,end=36,sele=t
+INFO:root:sel=8,st=7,end=35,sele=r
+INFO:root:sel=7,st=6,end=34,sele=e
+INFO:root:sel=6,st=5,end=33,sele=w
+INFO:root:sel=5,st=4,end=32,sele=q
+INFO:root:sel=4,st=3,end=31,sele=hell yead
+INFO:root:sel=4,st=3,end=31,sele=hell yead
+INFO:root:sel=4,st=3,end=31,sele=hell yead
+INFO:root:sel=3,st=2,end=30,sele=hell now
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=2,st=0,end=28,sele=four
+INFO:root:sel=3,st=0,end=28,sele=hell now
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=4,st=0,end=28,sele=hell yead
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 3fa142f] 03-05-25\n 32 files changed, 1 insertion(+), 32 deletions(-)\n delete mode 100644 bdrf\n delete mode 100644 bfv\n delete mode 100644 bfv \n delete mode 100644 brt\n delete mode 100644 dfvc\n delete mode 100644 e\n delete mode 100644 erdf\n delete mode 100644 four\n delete mode 100644 hell now\n delete mode 100644 hell yead\n delete mode 100644 htrh\n delete mode 100644 i\n delete mode 100644 j\n delete mode 100644 jn\n delete mode 100644 jyhn\n delete mode 100644 k\n delete mode 100644 l\n delete mode 100644 lkn\n delete mode 100644 pn4\n delete mode 100644 q\n delete mode 100644 r\n delete mode 100644 rdf\n delete mode 100644 rev\n delete mode 100644 rfv c\n delete mode 100644 rgdf\n delete mode 100644 t\n delete mode 100644 tgrh\n delete mode 100644 tgv\n delete mode 100644 w\n delete mode 100644 wd\n delete mode 100644 yjh\n', stderr=b'')
+
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:sel=0,st=0,end=28,sele=one
+INFO:root:sel=1,st=0,end=28,sele=two
+INFO:root:CompletedProcess(args=['git', 'add', '.'], returncode=0, stdout=b'', stderr=b'')
+
+INFO:root:CompletedProcess(args=['git', 'commit', '-m', '03-05-25'], returncode=0, stdout=b'[main 975cd31] 03-05-25\n 1 file changed, 1 insertion(+)\n create mode 100644 iwdjn\n', stderr=b'')
+

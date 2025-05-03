@@ -1,5 +1,5 @@
-# Noter
+# tldr
 
-- Minimal tui note taking app written in curses(python)
-- depends on python 3.12,duckdb and nvim
+- Lesson learned in modularity, and design patterns.
 
+- next step is to make backend and frontend modular so i can swap file_crud and crud(duckdb)

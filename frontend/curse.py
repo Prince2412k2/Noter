@@ -102,29 +102,46 @@ class Pointer:
 
 
 class NotesList:
-    def __init__(self) -> None:
+    def __init__(self, height: int) -> None:
         self.items: List[Relation] = parse_all(db)
         self.pointer: Pointer = Pointer(len(self.items) - 1)
+        self.start = 0
+        self.end = 0
 
-    def print_items(self, stdscr):
-        for idx, i in enumerate(self.items):
+    def print_items(self, stdscr, height):
+        for idx, i in enumerate(self.items[self.start : height + self.end - 1]):
             point = " "
             color = curses.color_pair(1) | curses.A_DIM
-            if idx == self.pointer.selected:
+            if idx + self.start == self.pointer.selected:
                 point = self.pointer.string
                 color = curses.color_pair(1) | curses.A_STANDOUT | curses.A_BOLD
             if i.done:
                 status = self.pointer.done
             else:
                 status = self.pointer.not_done
-            stdscr.addstr(idx, 0, f"{idx + 1}│{point}{status} {i.name}", color)
+            stdscr.addstr(
+                idx,
+                0,
+                f"{'0' if (idx + self.start + 1) < 10 else ''}{idx + self.start + 1}│{point}{status} {i.name}",
+                color,
+            )
             stdscr.refresh()
 
-    # def check(self, key):
-    def update(self, stdscr, key):
+    def update(self, stdscr, key, height, width):
         if key == curses.KEY_UP:
             self.pointer.up()
+            self.start -= 1 if self.start > 0 else 0
+            self.end -= 1 if self.end > 0 else 0
+            if self.pointer.selected == self.pointer.max:
+                self.start = self.pointer.selected - 1
+                self.end = self.pointer.selected - 1
         if key == curses.KEY_DOWN:
+            if self.pointer.selected > height - 4:
+                self.start = self.start + 1
+                self.end = self.end + 1
+            if self.pointer.selected > self.pointer.max - 1:
+                self.start = 0
+                self.end = 0
             self.pointer.down()
 
         name = self.items[self.pointer.selected].name
@@ -133,7 +150,9 @@ class NotesList:
         else:
             return
         if key == ord("a"):
-            pos_y = self.pointer.max + 1
+            pos_y = (
+                self.pointer.max + 1 if self.pointer.max + 1 < height else height - 1
+            )
             name = input_box(stdscr, pos_y=pos_y, prompt=" │>[n] ")
             if not name:
                 return
@@ -151,7 +170,9 @@ class NotesList:
             return
         if key == ord(" "):
             if name:
-                toggle_done(name, db)
+                if not toggle_done(name, db):
+                    logger.info(f"error with name ={name}")
+
         if key in (curses.KEY_ENTER, 10, 13):
             curses.endwin()
             write_note(name)
@@ -173,7 +194,7 @@ class NotesList:
         if key == ord("h"):
             draw_footer(stdscr, view_footer)
         if key == ord("g"):
-            jump_to(stdscr, self)
+            jump_to(stdscr, self, height)
         self.refresh()
 
     def refresh(self):
@@ -260,7 +281,7 @@ def draw_commit_window(win, height, width, commits):
     win.resize(height - 2, width // 2 - 2)
     win.mvwin(0, 0)
     win.erase()
-    print_items(commits, win)
+    print_items(commits, win, height)
     win.box()
     win.refresh()
 
@@ -351,11 +372,13 @@ def chunk_content(content: str, width: int, hight: int) -> list[str]:
     return result[: hight - 4]
 
 
-def get_note_content(notes_list: NotesList) -> str:
+def get_note_content(notes_list: NotesList) -> Optional[str]:
     pointer = notes_list.pointer.selected
     rel = notes_list.items[pointer]
-    assert rel.note
-    return rel.note.strip("\n").strip()
+    if rel:
+        return rel.note
+    else:
+        return ""
 
 
 def go_to_index(note: NotesList, index: int):
@@ -365,13 +388,16 @@ def go_to_index(note: NotesList, index: int):
     note.pointer.selected = index - 1
 
 
-def jump_to(stdscr, note: NotesList):
+def jump_to(stdscr, note: NotesList, height: int):
     num_items = len(note.items) + 1
     index = input_box(
         stdscr=stdscr, pos_y=stdscr.getmaxyx()[0] - 1, prompt="g~ ", max=num_items
     )
     if index.isnumeric():
         index = int(index)
+        if index > (note.end + height):
+            note.start = index - 1
+            note.end = index - 1
         go_to_index(note, index)
     else:
         notify(f"<{index}> is not a valid num", 2)
@@ -477,18 +503,16 @@ def commit_file(name: str):
     try:
         today = time.strftime("%d-%m-%y")
 
-        out1 = subprocess.run(["git", "add", name], check=True, capture_output=True)
-        out2 = subprocess.run(
-            ["git", "commit", "-m", today], check=True, capture_output=True
+        out1 = subprocess.run(
+            ["git", "add", name], cwd=PATH, check=True, capture_output=True
         )
-        logger.info("\n--------------\n")
-        logger.info(out1)
-        logger.info("\n--------------\n")
-        logger.info(out2)
+        out2 = subprocess.run(
+            ["git", "commit", "-m", today], cwd=PATH, check=True, capture_output=True
+        )
+        logger.info(f"{out1}\n")
+        logger.info(f"{out2}\n")
     except subprocess.CalledProcessError as e:
-        logger.info("\n--------------\n")
         logger.info(e)
-        logger.info("\n--------------\n")
         if e.returncode == 128:
             notify(f"failed to commit{name if name != '.' else '*'}")
             return None
@@ -521,9 +545,8 @@ def version_control(
             if key1 == curses.KEY_DOWN:
                 commits.down()
             if key1 == ord("c"):
-                logger.info("CUSRED ROUTE")
                 pyperclip.copy(content if content else "")
-                notify("Content coppied to clipboard")
+                notify("Coppied to clipboard")
             if key1 == ord("h"):
                 draw_footer(stdscr, git_footer)
             if key1 == ord("q"):
@@ -531,8 +554,12 @@ def version_control(
             time.sleep(0.05)
 
 
-def print_items(commits: Commits, win):
-    for idx, i in enumerate(commits.commits):
+def print_items(commits: Commits, win, height: int):
+    num_commits = len(commits.commits)
+    temp_commits = commits.commits
+    if num_commits > height:
+        temp_commits = commits.commits[:height]
+    for idx, i in enumerate(temp_commits):
         point = " "
         color = curses.color_pair(1) | curses.A_DIM
         if idx == commits.pointer:
@@ -551,11 +578,15 @@ def main(stdscr):
     stdscr.nodelay(False)
     stdscr.keypad(True)
 
-    notes = NotesList()
+    notes = NotesList(
+        height,
+    )
 
     if not get_all(db):
         add_item("welcome", "welcome", db)
-
+    # border_win = curses.newwin(height, width, 0, 0)
+    # border_win.box()
+    # border_win.refresh()
     view_win = curses.newwin((height) - 1, (width // 2) - 2, 0, width // 2)
     git_win = curses.newwin((height) - 1, (width // 2) - 2, 0, 0)
     count = None
@@ -563,7 +594,7 @@ def main(stdscr):
         stdscr.clear()
         height, width = stdscr.getmaxyx()
         help_bar(stdscr, height, width)
-        notes.print_items(stdscr)
+        notes.print_items(stdscr, height)
         draw_view_window(
             view_win,
             height,
@@ -575,6 +606,6 @@ def main(stdscr):
         if key == ord("q"):
             break
         version_control(stdscr, git_win, view_win, notes, key, height, width, count)
-        notes.update(stdscr, key=key)
+        notes.update(stdscr, key=key, height=height, width=width)
         time.sleep(0.005)
         stdscr.refresh()
