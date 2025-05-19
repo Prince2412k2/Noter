@@ -171,7 +171,7 @@ class NotesList:
         if key == ord(" "):
             if name:
                 if not toggle_done(name, db):
-                    logger.info(f"error with name ={name}")
+                    logger.warning(f"error with name ={name}")
 
         if key in (curses.KEY_ENTER, 10, 13):
             curses.endwin()
@@ -509,12 +509,10 @@ def commit_file(name: str):
         out2 = subprocess.run(
             ["git", "commit", "-m", today], cwd=PATH, check=True, capture_output=True
         )
-        logger.info(f"{out1}\n")
-        logger.info(f"{out2}\n")
     except subprocess.CalledProcessError as e:
-        logger.info(e)
+        logger.warning(f"failed to commit : {e}")
         if e.returncode == 128:
-            notify(f"failed to commit{name if name != '.' else '*'}")
+            notify(f"failed to commit {name if name != '.' else '*'}")
             return None
 
 
@@ -527,6 +525,7 @@ def version_control(
         commits: Commits = get_all_commits(file)
         assert file
         while True:
+            height, width = stdscr.getmaxyx()
             com = commits.get()
             if not com:
                 break

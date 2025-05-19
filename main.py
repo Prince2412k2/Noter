@@ -4,6 +4,7 @@ import curses
 from frontend.curse import main
 import logging
 from backend import create_table
+import subprocess
 
 logging.basicConfig(filename="debug.log", level=logging.INFO)
 
