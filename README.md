@@ -1,4 +1,5 @@
-# TL;DR
+# NOTER
+- A quick acess notepad built in your terminal
 
 - Lessons learned in modularity and design patterns.
 - Next step: make backend and frontend modular (so I can swap `file_crud` and `crud(duckdb)`).
