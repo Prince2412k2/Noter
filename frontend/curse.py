@@ -583,9 +583,6 @@ def main(stdscr):
 
     if not get_all(db):
         add_item("welcome", "welcome", db)
-    # border_win = curses.newwin(height, width, 0, 0)
-    # border_win.box()
-    # border_win.refresh()
     view_win = curses.newwin((height) - 1, (width // 2) - 2, 0, width // 2)
     git_win = curses.newwin((height) - 1, (width // 2) - 2, 0, 0)
     count = None
