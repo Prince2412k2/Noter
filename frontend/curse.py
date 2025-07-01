@@ -122,7 +122,7 @@ class NotesList:
             stdscr.addstr(
                 idx,
                 0,
-                f"{'0' if (idx + self.start + 1) < 10 else ''}{idx + self.start + 1}│{point}{status} {i.name}",
+                f"{'0' if (idx + self.start + 1) < 10 else ''}{idx + self.start + 1} {point}{status} {i.name}",
                 color,
             )
             stdscr.refresh()
@@ -310,8 +310,11 @@ def view_footer(win, height: int, width: int):
         ("  G   -> GoTo", white),
         ("  V   -> Version Control", white),
     ):
-        win.addstr(count + 2, 4, tag[0], tag[1])
-        count += space
+        try:
+            win.addstr(count + 1, 4, tag[0], tag[1])
+            count += space
+        except:
+            break
     win.box()
     win.refresh()
 
@@ -407,12 +410,21 @@ def generate_notification(win: curses.window, msg: str, width, pos_y, pos_x, col
     win.resize(5, width)
     win.mvwin(pos_y, pos_x)
     win.erase()
-    win.addstr(
-        2,
-        int(width * 0.5) - len(msg) + 5,
-        msg,
-        curses.color_pair(color) | curses.A_BOLD,
-    )
+    try:
+        win.addstr(
+            2,
+            int(width * 0.5) - len(msg) + 5,
+            msg,
+            curses.color_pair(color) | curses.A_BOLD,
+        )
+
+    except:
+        win.addstr(
+            2,
+            int(width * 0.5) - len(msg) + 10,
+            msg,
+            curses.color_pair(color) | curses.A_BOLD,
+        )
     win.attron(curses.color_pair(4))
     win.box()
     win.addstr(
